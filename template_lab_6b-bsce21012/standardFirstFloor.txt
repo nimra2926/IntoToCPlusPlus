@@ -1,0 +1,3 @@
+pass of credit card is: mskhang123!
+amount in credit card is:     234567
+after withdrawing the money from card the money left is:    228167

@@ -1,0 +1,7 @@
+THE TOTAL EXTRA CHARGES ARE =4000
+THE TOTAL BILL IS =26000
+THE TOTAL EXTRA CHARGES ARE =2000
+THE TOTAL BILL IS =24000
+pass of credit card is: mskhang123!
+amount in credit card is:  234567890
+after withdrawing the money from card the money left is:2.34544e+08

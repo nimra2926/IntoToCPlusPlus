@@ -1,0 +1,5 @@
+
+the total bill of first floor standard room is:     11400
+pass of credit card is: mskhang123!
+amount in credit card is:    2345678
+after withdrawing the money from card the money left is:2.33428e+06

@@ -1,0 +1,15 @@
+
+the Total bill with 2 mattress and 3 snacks is:7050
+pass of credit card is: NimraMaqbool4451@123!
+amount in credit card is:       8000
+after withdrawing the money from card the money left is:       950
+the Total bill with 4 mattress and 2 snacks is:5050
+pass of credit card is:   nina123!
+amount in credit card is:       5000
+the Total bill with 45 mattress and 1 snacks is:28550
+pass of credit card is:   nina123!
+amount in credit card is:      12345
+the Total bill with 2 mattress and 3 snacks is:4050
+pass of credit card is: mskhang123!
+amount in credit card is:     500000
+after withdrawing the money from card the money left is:    495950
