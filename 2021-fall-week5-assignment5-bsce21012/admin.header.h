@@ -1,0 +1,6 @@
+
+
+#ifndef PROJECT_TYPE_ADMIN_HEADER_H
+#define PROJECT_TYPE_ADMIN_HEADER_H
+void loginSystem()
+#endif //PROJECT_TYPE_ADMIN_HEADER_H
