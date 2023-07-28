@@ -1,0 +1,4 @@
+ID NUMBER IS =       123          First name     nimra          last name     aqbool         designation    tudent
+ID NUMBER IS =       123         First name       nina          last name        ima        designation     eacher
+ID NUMBER IS =       123         First name      nimra          last name     aqbool        designation     tudent
+ID NUMBER IS =       123         First name       nina          last name     aqbool        designation     tudent

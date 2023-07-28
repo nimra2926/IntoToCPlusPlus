@@ -1,0 +1,6 @@
+
+
+#ifndef FALL2021_LAB_FINALEXAM_Q2_H
+#define FALL2021_LAB_FINALEXAM_Q2_H
+void displayData();
+#endif //FALL2021_LAB_FINALEXAM_Q2_H
