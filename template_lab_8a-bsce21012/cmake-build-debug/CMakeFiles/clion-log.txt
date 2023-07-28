@@ -1,0 +1,44 @@
+C:\Users\Lenovo\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/cygstart.exe -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012"
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: /usr/bin/cygstart.exe
+-- Check for working CXX compiler: /usr/bin/cygstart.exe - broken
+CMake Error at /cygdrive/c/Users/Lenovo/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/share/cmake-3.20.2/Modules/CMakeTestCXXCompiler.cmake:59 (message):
+  The C++ compiler
+
+    "/usr/bin/cygstart.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_4e713/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e713.dir/build.make CMakeFiles/cmTC_4e713.dir/build
+    make[1]: Entering directory '/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building CXX object CMakeFiles/cmTC_4e713.dir/testCXXCompiler.cxx.o
+    /usr/bin/cygstart.exe    -o CMakeFiles/cmTC_4e713.dir/testCXXCompiler.cxx.o -c "/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+    Unable to start 'CMakeFiles\cmTC_4e713.dir\testCXXCompiler.cxx.o': The specified file was not found.
+    make[1]: *** [CMakeFiles/cmTC_4e713.dir/build.make:78: CMakeFiles/cmTC_4e713.dir/testCXXCompiler.cxx.o] Error 1
+    make[1]: Leaving directory '/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeTmp'
+    make: *** [Makefile:127: cmTC_4e713/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/cygdrive/f/ITU ALL DATA/SEMESTER 1/CFP/labs/template_lab_8a-bsce21012/cmake-build-debug/CMakeFiles/CMakeError.log".
