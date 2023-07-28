@@ -1,0 +1,12 @@
+please enter the number of rows: 
+rows  5
+    *    
+   * *   
+  *   *  
+ *     * 
+*       *
+*       *
+ *     * 
+  *   *  
+   * *   
+    *    
