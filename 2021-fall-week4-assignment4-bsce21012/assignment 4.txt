@@ -1,0 +1,191 @@
+//bool armstrongNumber(int num) {
+//    // write your code here
+//    int sum = 0;
+//    int digit;
+//    int temp;
+//    temp = num;
+//    while (temp != 0) {
+//        digit = temp % 10;
+//        sum += digit * digit * digit;
+//        temp = temp / 10;
+//    }
+//    if (sum == num) {
+//        return true;
+//    } else
+//        return false;
+//}
+//
+//int raiseToPower(int num1, int num2) {
+//    // Write your code here
+//    int power = 1;
+//    int i = 1;
+//    do {
+//        power *= num1;
+//        i++;
+//    } while (i <= num2);
+//    return power;
+//}
+//
+//bool palindrome(int number)
+//// Write your code here
+//{
+//    int digit;
+//    int rev = 0;
+//    int n;
+//    n = number;
+//    int i = 1;
+//
+//    do {
+//        digit = number % 10;
+//        rev = (rev * 10) + digit;
+//        number = number / 10;
+//        i++;
+//    } while (number != 0);
+//
+//    if (n == rev) {
+//        return true;
+//    } else {
+//        return false;
+//    }
+//}
+//
+//int arithmeticoperation() {
+//    char do_op;
+//    cout
+//            << "Please enter Y if you want to do arithmetic operations, and enter N if you dont want to perform any arithmetic operations"
+//            << endl;
+//    cin >> do_op;
+//    int num1;
+//    int num2;
+//    if (do_op == 'Y') {
+//        menu(num1, num2);
+//
+//    } else {
+//        cout << "as you want to exit from the program" << endl;
+//
+//    }
+//    return 0;
+//
+//}
+//
+//int menu(int num1, int num2) {
+//    cout
+//            << "please enter first positive number (number should be greater than zero, as it will produce inf and error in divide and module operation respectivelly) "
+//            << endl;
+//    cin >> num1;
+//    cout
+//            << "please enter second positive number (number should be greater than zero, as it will produce inf and error in divide and module operation respectivelly) "
+//            << endl;
+//    cin >> num2;
+//    int operation_var;
+//    int menu;
+//    do {
+//        cout << "\n Given below are the menu of the given operation" << endl;
+//        cout << "\n please enter 1 for Sum operation " << endl;
+//        cout << "\n please enter 2 for Subtract operation" << endl;
+//        cout << "\n please enter 3 for Multiply operation" << endl;
+//        cout << "\n please enter 4 for Divide operation" << endl;
+//        cout << "\n please enter 5 for module operation" << endl;
+//
+//        cin >> operation_var;
+//
+//        switch (operation_var) {
+//            case 1:
+//                cout << sum(num1, num2);
+//                break;
+//            case 2:
+//                cout << subtract(num1, num2);
+//                break;
+//            case 3:
+//                cout << multiply(num1, num2);
+//                break;
+//            case 4:
+//                cout << divide(num1, num2);
+//                break;
+//            case 5:
+//                cout << module_fun(num1, num2);
+//                break;
+//            default:
+//                cout << " you have enter an invalid operation number" << endl;
+//                break;
+//        }
+//    } while (operation_var > 0 && operation_var <= 5);
+//}
+//
+//
+//int sum(int num1, int num2) {
+////    cout << "\nSum = " << num1 + num2 << endl;
+//    return num1 + num2;
+//}
+//
+//int subtract(int num1, int num2) {
+//    //cout << "\nSubtraction = " << num1 - num2 << endl;
+//    return num1 - num2;
+//}
+//
+//int multiply(int num1, int num2) {
+//    //cout << "\nMultiply = " << num1 * num2 << endl;
+//    return num1 * num2;
+//}
+//
+//float divide(float num1, float num2) {
+//    float resu;
+//    //cout << "\nDivide = " << num1 / num2 << endl;
+//    resu = num1 / num2;
+//    return resu;
+//}
+//
+//int module_fun(int num1, int num2) {
+//    //cout << "\nmodule = " << num1 % num2 << endl;
+//    return num1 % num2;
+//}
+
+
+
+main.cpp is...
+// task 1
+//    int num;
+//    cout << "please enter the number:" << endl;
+//    cin>>num;
+//    cout << armstrongNumber(num) << endl;
+//
+//task 2
+//    int num1;
+//    int num2;
+//    cout << "enter base"<<endl;
+//    cin >> num1;
+//    cout <<"enter exponent"<< endl;
+//    cin >> num2;
+//    int result=0;
+//    result=raiseToPower (num1,num2);
+//    cout<<"the answer is:"<<result<<endl;
+//
+//
+//task 3
+//int number;
+//    cout << "Enter a positive number: ";
+//    cin >> number;
+//    cout<< palindrome ( number)<<endl;
+//
+// task 4
+//cout<<arithmeticoperation()<<endl;
+//
+//    return 0;
+//}
+
+
+
+
+
+function.header
+
+//bool armstrongNumber(int num);
+//int raiseToPower (int num1, int num2);
+//bool palindrome (int number);
+//int arithmeticoperation( );
+//int menu(int num1, int num2);
+//int sum (int num1,int num2);
+//int subtract (int num1,int num2);
+//int multiply ( int num1, int num2);
+//float divide ( float num1,float num2);
+//int module_fun (int num1,int num2);
